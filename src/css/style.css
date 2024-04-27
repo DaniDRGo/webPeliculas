@@ -131,46 +131,44 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    h1{
-        font-size: 4vh;
-    }
-    .busca{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    form{
-        display: flex;
-        flex-direction: row;
-        margin:0%
-    }
-    .campo-buscador{
-        width: 75%;
-        height: 4vh;
-        font-size: 18px;
-        padding: 10px;
-        border-radius: 4px;
-        border: none;
-    }
-    .boton-buscador{
-        width: 25%;
-        height: 4vh;
-        font-size: 16px;
-        color: black;
-        background-color: white;
-        cursor: pointer;
-        font-weight: bold;
-        border-radius: 0px 4px 4px 0px;
-        padding: 3px;
-        border: none;
-        border-left: 1px solid black;
-        margin-left: -7px;
-    }
-    .busca{
-        display: inline-block;
-    }
+    gap: 20px;   
+}
+.buscador h1{
+    font-size: 4vh;
+}
+.busca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    margin:0%
+}
+.campo-buscador{
+    width: 75%;
+    height: 4vh;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+.boton-buscador{
+    width: 25%;
+    height: 4vh;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0px 4px 4px 0px;
+    padding: 3px;
+    border: none;
+    border-left: 1px solid black;
+    margin-left: -7px;
 }
 .tendencias{
     background-color: rgb(45, 44, 44);
