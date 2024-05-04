@@ -59,6 +59,7 @@ body{
     padding: 5px 5px;
 }
 .navlist li:nth-of-type(3){
+    text-align: center;
     background-color: black;
     padding: 5px 5px;
     border-radius: 10px;
