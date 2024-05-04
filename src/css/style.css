@@ -44,13 +44,14 @@ body{
 }
 .navlist{
     height: 30%;
-    font-size: 2vh;
+    font-size: 0.8em;
     width: 100%;
     font-weight: bolder;
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     list-style: none;
     justify-content: space-around;
+   
 }
 .navlist li{
     display: flex;
