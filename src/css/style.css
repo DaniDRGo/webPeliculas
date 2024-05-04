@@ -61,7 +61,7 @@ body{
 .navlist li:nth-of-type(3){
     text-align: center;
     background-color: black;
-    padding: 3px 3px;
+    padding: 5px 3px;
     border-radius: 10px;
 }
 .navlist li:nth-child(3):hover{
