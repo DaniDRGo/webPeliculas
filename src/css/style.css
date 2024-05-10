@@ -161,7 +161,7 @@ main{
     gap: 20px;   
 }
 .buscador h1{
-    font-size: 4vh;
+    font-size: 1.4em;
 }
 .busca{
     display: flex;
@@ -209,7 +209,7 @@ form{
 .tendencias h1{
     margin-top: 3.5vh;
     color: white;
-    font-size: 4.2vh;
+    font-size: 1.8em;
 }
 .contenedor-peliculas{
     display: flex;
@@ -275,7 +275,7 @@ form{
 }
 .aclamadas h1{
     margin-top: 1em;
-    font-size: 1.9em;
+    font-size: 1.8em;
     color: aliceblue;
 }
 .boxes-aclamadas{
