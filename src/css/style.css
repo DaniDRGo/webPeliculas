@@ -36,15 +36,17 @@ body{
 .logo{
     width: 5.2em;
     height: 4em;
-    transition: transform 5s ease;
+    transition: ease all 2s;
+    transition-delay: 0.5s;
     object-fit: cover;
 }
 .logo:hover{
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1.05);
+    transition-duration: 6s;
 }
 .navlist{
     height: 30%;
-    font-size: 0.8em;
+    font-size: 0.7em;
     width: 100%;
     font-weight: bolder;
     display: flex;
@@ -237,16 +239,17 @@ form{
     justify-content: space-around;
 }
 .boton-peli{
+    text-align: center;
     background-color: brown;
     color: goldenrod;
     font-size: 1em;
+    width: 5.5em;
     height: 3em;
-    padding: 10px;
+    padding: auto;
     border: 1px solid white;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
-    display: inline-block;
     transition: ease all 0.8s; /*para reducir un boton sin que se muevan al seleccionar se coloca en el inicial no en el hover*/
 }
 .boton-peli:hover{
@@ -272,7 +275,7 @@ form{
 }
 .aclamadas h1{
     margin-top: 1em;
-    font-size: 2em;
+    font-size: 1.8em;
     color: aliceblue;
 }
 .boxes-aclamadas{
@@ -306,27 +309,28 @@ form{
 footer{
     background-color: brown;
     width: 100%;
-    padding: 2rem 8%;
     font-weight: bold;   
 }
 footer ul{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
+    align-items: center;    
+    padding: 10px;
 }
 footer ul li{
     list-style: none;
     color: goldenrod;
     font-size: 1rem;
-    margin: 0.3rem;
+    
     cursor: pointer;
-    opacity: 0.6;
-    padding: 0.3rem;
+    padding: 0.5rem;
     border-radius: 4px;
     transition: ease all 0.2s;
+}
+footer ul li:nth-of-type(4){
+    background-color: black;
+    color: white;
 }
 footer ul li:hover{
     color: aliceblue;
