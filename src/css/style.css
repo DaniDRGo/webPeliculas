@@ -56,13 +56,22 @@ body::-webkit-scrollbar-track{
 .ancla{
     position: sticky;
     top: 84%;
-    padding-right:6%;
+    margin-right:6%;
+    padding:auto;
+    border-radius: 150px;
     align-self: flex-end;
     z-index: 80;
     opacity: 0;
     animation: revelacionBoton auto linear;
     animation-timeline: scroll(root block);
     visibility: hidden;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ancla img{
+transform: scale(1);
 }
 @keyframes revelacionBoton {
     to{
@@ -72,6 +81,10 @@ body::-webkit-scrollbar-track{
 }
 .ancla:hover{
     opacity: 1;
+    transform: scale(1.1);
+}
+.ancla:active{
+    transform: scale(0.8);
 }
 #img-ancla{
     filter: invert(74%) sepia(85%) saturate(326%) hue-rotate(336deg) brightness(99%) contrast(94%);
@@ -336,8 +349,8 @@ form{
 }
 .boton-peli:active{
     background-color: goldenrod;
-
-    box-shadow: 0px 0px 20px 0px rgba(34, 250, 41, 0.972)==98.,MM}
+    box-shadow: 0px 0px 20px 0px rgba(34, 250, 41, 0.972);
+}
 .aclamadas{
     background-color: rgb(45, 44, 44);
     display: flex;
