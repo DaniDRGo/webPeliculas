@@ -71,7 +71,7 @@ body::-webkit-scrollbar-track{
 }
 .header{
     background-color: brown;
-    height: 6.4em;
+        
     width: 100%;
     position: fixed;
     z-index: 1; 
@@ -145,7 +145,7 @@ body::-webkit-scrollbar-track{
 /********** estilo de main**********/
 
 main{  
-    margin-top: 4.17em;
+    padding-top: 3.45em;
     height: 100%;
 }
 
@@ -410,6 +410,7 @@ footer{
 .footer-opciones ul li{
     list-style: none;
     color: goldenrod;
+    text-align: center;
     font-size: 0.9rem;    
     cursor: pointer;
     padding: 0.5rem;
