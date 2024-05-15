@@ -18,7 +18,7 @@ body{
     background-color: rgb(45, 44, 44);
 }
 body::-webkit-scrollbar{
-    width: 9px;
+    width: 10px;
 }
 body::-webkit-scrollbar-thumb{
     background-color: brown;
@@ -363,12 +363,11 @@ form{
     column-gap: 20px;    
 }
 .boxes-aclamadas::-webkit-scrollbar{
-    width: 15px;
+    height: 10px;
 }
 .boxes-aclamadas::-webkit-scrollbar-thumb{
-
-
     border-radius: 8px;
+    background-color: brown;
 }
 .boxes-aclamadas::-webkit-scrollbar-thumb:hover{
     box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.5);
@@ -397,6 +396,7 @@ footer{
     position: relative;
     z-index: -1;
     background-color: brown;
+    padding-bottom: 1em;
     width: 100%;
     display: grid;
     grid-template:
