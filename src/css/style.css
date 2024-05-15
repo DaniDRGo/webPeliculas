@@ -71,7 +71,7 @@ body::-webkit-scrollbar-track{
     align-items: center;
 }
 .ancla img{
-transform: scale(1);
+background-color: aqua;
 }
 @keyframes revelacionBoton {
     to{
@@ -88,6 +88,7 @@ transform: scale(1);
 }
 #img-ancla{
     filter: invert(74%) sepia(85%) saturate(326%) hue-rotate(336deg) brightness(99%) contrast(94%);
+    border-radius: 300px;
 }
 .header{
     background-color: brown;     
