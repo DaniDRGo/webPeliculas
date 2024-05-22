@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../img/bg-register.jpg);
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    height: 6em;
+}
+header a img{
+    height: 100%;
+    margin-left: 10%;
+}
+.main{
+    width: 100%;
+    display:grid;
+    place-content: center;
+}
+.contenedor-registro{
+    background-color: black;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    column-gap: 30px;
+    
+}
+.h2-registro{
+    color: white;
+    margin-bottom: 15px;
+}

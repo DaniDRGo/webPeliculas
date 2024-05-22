@@ -32,21 +32,7 @@ body::-webkit-scrollbar-thumb:hover{
 body::-webkit-scrollbar-track{
     background-color: rgb(0, 0, 0);
 }
-@keyframes scrollreveal{
-    0%{
-        opacity: 0;
-        transform: translateY(5vh);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0vh);
-    }
-}
- .buscador{
-    animation: scrollreveal 1s linear  both;
-    animation-timeline: view();
-    animation-range: entry 0% cover 50%;
-}
+
 /********** estilo de header**********/
 #ancla-1{
     position: absolute;
@@ -71,7 +57,7 @@ body::-webkit-scrollbar-track{
     align-items: center;
 }
 .ancla img{
-background-color: aqua;
+
 }
 @keyframes revelacionBoton {
     to{
@@ -402,6 +388,7 @@ form{
 .boxes img:hover{
     box-shadow: 0px 0px 20px 0px rgba(248, 5, 5, 0.58);
 }
+
 
 /********** estilo de footer**********/
 

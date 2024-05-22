@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7a2325774c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="./src/img/Logo.ico" type="image/x-icon">
     <title>FILMS PLUS+</title>
 </head>
@@ -36,7 +37,7 @@
                 </div>
             </article>
             
-            <article class="buscador">
+            <article class="buscador" data-aos="fade-up" data-aos-duration="1000"data-aos-offset="300"data-aos-delay="300">
                <h1>Que estas buscando para ver?</h1>
                <div class="busca">
                   <form action="#">
@@ -49,7 +50,7 @@
                </div>
             </article>
             <hr>
-            <article class="tendencias">
+            <article class="tendencias" data-aos="fade-up" data-aos-duration="1000"data-aos-offset="400"data-aos-delay="100">
                 <h1>Las tendencias de hoy</h1>
                 <div class="contenedor-peliculas">
                    <div class="box"><a href=""><img src="./src/img/peliculas/peli_5.jpg" alt="Acuaman"></a></div>
@@ -67,7 +68,7 @@
                 </div>
             </article>
             <hr>
-            <article class="aclamadas">
+            <article class="aclamadas" data-aos="fade-up" data-aos-duration="1000"data-aos-offset="200"data-aos-delay="100">
                 <h1>Las mas aclamadas</h1>
                 <div class="boxes-aclamadas">
                     <div class="boxes">
@@ -133,5 +134,9 @@
             </div>
        </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
