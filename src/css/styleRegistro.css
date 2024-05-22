@@ -6,16 +6,17 @@
 body{
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../img/bg-register.jpg);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.315), rgba(5, 7, 12, 0.334)), url(../img/bg-register.jpg);
 }
 header{
     display: flex;
     justify-content: flex-start;
-    height: 6em;
+    height: 4.5em;
 }
 header a img{
     height: 100%;
     margin-left: 10%;
+    filter: invert(74%) sepia(85%) saturate(326%) hue-rotate(336deg) brightness(99%) contrast(94%);
 }
 .main{
     width: 100%;
@@ -23,17 +24,81 @@ header a img{
     place-content: center;
 }
 .contenedor-registro{
-    background-color: black;
-    width: 20em;
+    background-color:rgb(38, 37, 37);
+    width: 30em;
+    height: 40em;    
+    padding: 7%;
+    border-radius: 10px;    
+}
+.formulario-registro{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10%;
-    column-gap: 30px;
-    
+    gap: 1.3em;
 }
-.h2-registro{
+.h1-registro{
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.div-registro{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+.registro{
+    background-color: rgb(38, 37, 37);
+    font-size: 0.9em;
+    color:white;
+    width: 70%;
+    border: 2px solid rgb(157, 62, 62);
+    border-radius: 20px;
+    padding: 9px 20px;
+}
+.registro:focus{
+    box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.5);
+}
+.registro:hover{
+    transform: scale(1.1);
+}
+.registro::placeholder{
+    color: white;
+}
+input[type="date"]{
+    color: white;
+}
+.checkbox-registro{
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-registro .registro{
+    width: 10%;
+    cursor: pointer;
+    box-shadow: none;
+}
+.checkbox-registro a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+}
+.boton-registro{
+    background-color:rgba(167, 45, 45, 0.981);
+    width: 60%;
+    font-size: 0.8em;
+    font-weight: 550;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.boton-registro:active{
+    transform: scale(1.1);
+    background-color: black;
+    border: 1px solid goldenrod;
+}
+.ayuda-registro{
+    text-decoration: none;
+    color: white;
 }
