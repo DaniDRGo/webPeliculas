@@ -65,9 +65,9 @@ header a img{
 .registro::placeholder{
     color: white;
 }
-input[type="date"]{
+/*input[type="date"]{
     color: white;
-}
+}*/
 .checkbox-registro{
     display: flex;
     flex-direction: row;
