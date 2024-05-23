@@ -19,35 +19,35 @@ header a img{
 }
 .main{
     width: 100%;
-    display:flex;
-    justify-content: center;
-    text-align: center;
+    height: 80vh;
+    display:grid;
+    place-content: center;
 }
-.contenedor-registro{
+.contenedor-sesion{
     background-color:rgb(38, 37, 37);
-    width: 26em;
-    height: 40em;    
+    width: 24em;
+    height: 26em;    
     padding: 7%;
     border-radius: 15px;    
 }
-.formulario-registro{
+.formulario-sesion{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.1em;
 }
-.h1-registro{
+.h1-sesion{
     color: white;
     margin-bottom: 10px;
     text-align: center;
 }
-.div-registro{
+.div-sesion{
     width: 100%;
     display: flex;
     justify-content: center;    
 }
-.registro{
+.sesion{
     background-color: rgb(38, 37, 37);
     font-size: 0.9em;
     color:white;
@@ -56,33 +56,30 @@ header a img{
     border-radius: 20px;
     padding: 10px 20px;
 }
-.registro:focus{
+.sesion:focus{
     box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.5);
 }
-.registro:hover{
+.sesion:hover{
     transform: scale(1.1);
 }
-.registro::placeholder{
+.sesion::placeholder{
     color: white;
 }
-input[type="date"]{
-    color: white;
-}
-.checkbox-registro{
+.checkbox-sesion{
     display: flex;
     flex-direction: row;
 }
-.checkbox-registro .registro{
+.checkbox-sesion .sesion{
     width: 10%;
     cursor: pointer;
     box-shadow: none;
 }
-.checkbox-registro a{
+.checkbox-sesion a{
     text-decoration: none;
     color: white;
     font-size: 0.7em;
 }
-.boton-registro{
+.boton-sesion{
     background-color:rgba(167, 45, 45, 0.981);
     width: 60%;
     font-size: 0.8em;
@@ -93,12 +90,12 @@ input[type="date"]{
     border-radius: 10px;
     cursor: pointer;
 }
-.boton-registro:active{
+.boton-sesion:active{
     transform: scale(1.1);
     background-color: black;
     border: 1px solid goldenrod;
 }
-.ayuda-registro{
+.restablecer-sesion{
     text-decoration: none;
     color: white;
 }
