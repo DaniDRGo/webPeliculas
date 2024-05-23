@@ -19,8 +19,9 @@ header a img{
 }
 .main{
     width: 100%;
-    display:grid;
-    place-content: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .contenedor-registro{
     background-color:rgb(38, 37, 37);
