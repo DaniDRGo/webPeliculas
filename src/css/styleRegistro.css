@@ -10,12 +10,11 @@ body{
 }
 header{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     height: 4.5em;
 }
 header a img{
-    height: 100%;
-    margin-left: 10%;
+    height: 100%;    
     filter: invert(74%) sepia(85%) saturate(326%) hue-rotate(336deg) brightness(99%) contrast(94%);
 }
 .main{
@@ -25,10 +24,10 @@ header a img{
 }
 .contenedor-registro{
     background-color:rgb(38, 37, 37);
-    width: 30em;
+    width: 28em;
     height: 40em;    
     padding: 7%;
-    border-radius: 10px;    
+    border-radius: 15px;    
 }
 .formulario-registro{
     display: flex;
@@ -65,9 +64,7 @@ header a img{
 .registro::placeholder{
     color: white;
 }
-/*input[type="date"]{
-    color: white;
-}*/
+
 .checkbox-registro{
     display: flex;
     flex-direction: row;
