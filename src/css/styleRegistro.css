@@ -102,3 +102,8 @@ input[type="date"]{
     text-decoration: none;
     color: white;
 }
+@media screen and (min-width: 960px){
+    .contenedor-registro{
+        padding: 3%;
+    }
+}
