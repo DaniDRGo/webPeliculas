@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 300vh;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;     
+}
+.padre{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/img-mantenimiento.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
