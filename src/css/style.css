@@ -289,7 +289,7 @@ form{
 .contenedor-peliculas{
     display: flex;
     flex-direction: column;    
-    gap:15px 
+    gap:20px 
 }
 .box{
   
