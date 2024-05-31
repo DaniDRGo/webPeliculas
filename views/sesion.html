@@ -12,16 +12,18 @@
     </header>
     <main class="main">
         <section class="contenedor-sesion">
-            <form action="" method="" class="formulario-sesion">
+            <form action="" method="" class="formulario-sesion" id="formulario-sesion">
                 <h1 class="h1-sesion">Iniciar Sesion</h1>
                 <div class="div-sesion">
-                    <input type="email" class="sesion" placeholder="Mail">
+                    <input type="email" class="sesion" id="email" placeholder="Mail">
+                    <div id="email-error" class="error"></div>
                 </div>
                 <div class="div-sesion">
-                    <input type="password" class="sesion" placeholder="Contraseña">
+                    <input type="password" class="sesion" id="password" placeholder="Contraseña">
+                    <div id="password-error" class="error"></div>
                 </div>
                 <div class="div-sesion checkbox-sesion">                    
-                    <input type="checkbox" class="sesion">
+                    <input type="checkbox" class="sesion" id="recordar">
                     <a href="">Recordar</a>
                 </div>
                 <div class="div-sesion">
@@ -34,5 +36,6 @@
    
         </section>
     </main>
+    <script src="../js/validacionSesion.js" ></script>
 </body>
 </html>

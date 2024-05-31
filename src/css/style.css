@@ -297,6 +297,7 @@ form{
 .enlace{
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 .box img{
     width: 90%;
@@ -679,7 +680,7 @@ footer{
    
    .buscador{
     .boton-buscador-gral{
-        height: 2.2em;
+        height: 1.75em;
     }
    } 
    .tendencias{

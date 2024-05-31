@@ -10,6 +10,7 @@ function crearTarjeta(pelicula){
     tarjeta.classList.add('box');
     const enlace = document.createElement('a');
     enlace.classList.add('enlace');
+    enlace.href = './views/detalle.html'
     const imagen = document.createElement('img');
     imagen.classList.add('imagen');
     imagen.src = `${pelicula.backdrop_path}`; 

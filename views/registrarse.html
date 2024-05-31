@@ -12,25 +12,31 @@
     </header>
     <main class="main">
         <section class="contenedor-registro">
-            <form action="" method="" class="formulario-registro">
+            <form action="" method="" class="formulario-registro" id="formulario-registro">
                 <h1 class="h1-registro">Registrate</h1>
                 <div class="div-registro">
-                    <input type="text" class="registro" placeholder="Nombre">
+                    <input type="text" class="registro" id="nombre" placeholder="Nombre">
+                    <div id="nombre-error" class="error"></div>
                 </div>
                 <div class="div-registro">
-                    <input type="text" class="registro" placeholder="Apellido">
+                    <input type="text" class="registro" id="apellido" placeholder="Apellido">
+                    <div id="apellido-error" class="error"></div>
                 </div>
                 <div class="div-registro">
-                    <input type="email" class="registro" placeholder="Mail">
+                    <input type="email" class="registro" id="email" placeholder="Mail">
+                    <div id="email-error" class="error"></div>
                 </div>
                 <div class="div-registro">
-                    <input type="password" class="registro" placeholder="Contraseña">
+                    <input type="password" class="registro" id="password" placeholder="Contraseña">
+                    <div id="password-error" class="error"></div>
                 </div>
                 <div class="div-registro">
-                    <input type="password" class="registro" placeholder="Repetir contraseña">
+                    <input type="password" class="registro" id="confirm-password" placeholder="Repetir contraseña">
+                    <div id="confirm-password-error" class="error"></div>
                 </div>
                 <div class="div-registro">
-                    <input type="date" class="registro" placeholder="dd/mm/aaaa">
+                    <input type="date" class="registro" id="fecha" placeholder="dd/mm/aaaa">
+                    <div id="fecha-error" class="error"></div>
                 </div>
                 <div class="div-registro">
                     <select name="pais" id="pais" class="registro">
@@ -41,10 +47,12 @@
                         <option value="Ecuador" class="option">Ecuador</option>
                         <option value="Uruguay" class="option">Uruguay</option>
                     </select>
+                    <div id="pais-error" class="error"></div>
                 </div>
-                <div class="div-registro checkbox-registro">                    
+                <div class="div-registro checkbox-registro" id="terminos">                    
                     <input type="checkbox" class="registro">
                     <a href="">Acepto terminos y condiciones</a>
+                    <div id="terminos-error" class="error"></div>
                 </div>
                 <div class="div-registro">
                     <input type="submit" class="boton-registro" value="Registrarse">
@@ -56,5 +64,6 @@
    
         </section>
     </main>
+    <script src="../js/ValidacionRegistro.js"></script>
 </body>
 </html>

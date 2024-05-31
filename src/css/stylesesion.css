@@ -45,7 +45,9 @@ header a img{
 .div-sesion{
     width: 100%;
     display: flex;
-    justify-content: center;    
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
 }
 .sesion{
     background-color: rgb(38, 37, 37);
@@ -98,4 +100,9 @@ header a img{
 .restablecer-sesion{
     text-decoration: none;
     color: white;
+}
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.8em;
 }

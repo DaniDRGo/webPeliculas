@@ -45,7 +45,9 @@ header a img{
 .div-registro{
     width: 100%;
     display: flex;
-    justify-content: center;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
 }
 .registro{
     background-color: rgb(38, 37, 37);
@@ -101,6 +103,11 @@ input[type="date"]{
 .ayuda-registro{
     text-decoration: none;
     color: white;
+}
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.8em;
 }
 @media screen and (min-width: 960px){
     .contenedor-registro{
